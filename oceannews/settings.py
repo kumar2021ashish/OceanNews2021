@@ -184,7 +184,7 @@ if USING_S3:
     MEDIA_FOLDER = 'media'
     MEDIA_ROOT = 'media/'
     MEDIA_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, MEDIA_FOLDER)
-    DEFAULT_FILE_STORAGE = 'mac.default_storages.MediaStorage'
+    DEFAULT_FILE_STORAGE = 'oceannews.default_storages.MediaStorage'
 else:
     # IF WE ARE WORKING LOCALLY WITHOUT AWS
     STATIC_URL = 'static/'
