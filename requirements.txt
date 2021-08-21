@@ -3,6 +3,7 @@ boto3==1.18.23
 botocore==1.21.23
 certifi==2021.5.30
 Django==3.2.6
+django-cors-headers==3.8.0
 django-storages==1.11.1
 djangorestframework==3.12.4
 gunicorn==20.1.0
