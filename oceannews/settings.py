@@ -81,7 +81,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -93,14 +93,14 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tqcbrvmm',
-        'USER': 'tqcbrvmm',
-        'PASSWORD': 'KkPSEjnMKJayDt9Ta5kpIWkZ2u3K5m1O',
-        'HOST': 'queenie.db.elephantsql.com',
+        'NAME': 'cdaimoar',
+        'USER': 'cdaimoar',
+        'PASSWORD': 'yZ2okSsia3eJxyh9yh3zPJKY4kJODLYY',
+        'HOST': 'ziggy.db.elephantsql.com',
         'PORT': '5432',
     }
 }
-'''
+
 
 
 CORS_ORIGIN_ALLOW_ALL =  True
